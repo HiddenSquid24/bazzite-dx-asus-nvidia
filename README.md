@@ -4,8 +4,6 @@
 
 This is just bazzite, but with extra developer-specific tooling, aiming to match [Bluefin DX](https://docs.projectbluefin.io/bluefin-dx/) and [Aurora DX](https://docs.getaurora.dev/dx/aurora-dx-intro) in functionality
 
-[`bazzite-gdx`](https://github.com/ublue-os/bazzite-gdx) will source from here and be focused for game development.
-
 ## Installation
 
 To rebase an existing Bazzite installation to Bazzite DX, use one of the following commands based on your current variant:
