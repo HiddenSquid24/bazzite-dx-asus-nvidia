@@ -58,15 +58,16 @@ else
       /etc/xdg/kdeglobals
 fi
 
-dnf5 install --enable-repo="cloudflare-warp" -y \
-    cloudflare-warp
-
 dnf5 install --enable-repo="copr:copr.fedorainfracloud.org:ublue-os:packages" -y \
     ublue-setup-services
 
 # Adding repositories should be a LAST RESORT. Contributing to Terra or `ublue-os/packages` is much preferred
 # over using random coprs. Please keep this in mind when adding external dependencies.
 # If adding any dependency, make sure to always have it disabled by default and _only_ enable it on `dnf install`
+
+# Add the Cloudflare WARP repo
+dnf5 config-manager addrepo --from-repofile="https://pkg.cloudflareclient.com/cloudflare-warp-ascii.repo"
+dnf5 install -y --enablerepo=cloudflare-warp cloudflare-warp
 
 dnf5 config-manager addrepo --set=baseurl="https://packages.microsoft.com/yumrepos/vscode" --id="vscode"
 dnf5 config-manager setopt vscode.enabled=0
