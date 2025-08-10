@@ -12,7 +12,7 @@ To rebase an existing Bazzite installation to Bazzite DX, use one of the followi
 
 **For KDE Plasma with NVIDIA:**
 ```bash
-rpm-ostree rebase ostree-image-signed:docker://ghcr.io/hiddensquid24/bazzite-dx-asus-nvidia:stable
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/hiddensquid24/bazzite-dx-asus-nvidia-open:stable
 ```
 
 To skip signature verification (not recommended unless you know what you're doing and why you're doing it), replace `ostree-image-signed:docker://ghcr.io` with `ostree-unverified-registry:ghcr.io`.
