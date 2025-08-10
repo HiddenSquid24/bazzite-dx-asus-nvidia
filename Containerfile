@@ -7,7 +7,7 @@ COPY build_files /build_files
 
 FROM ${BASE_IMAGE}
 
-ARG IMAGE_NAME="${IMAGE_NAME:-bazzite-dx}"
+ARG IMAGE_NAME="${IMAGE_NAME:-bazzite-dx-asus-nvidia}"
 ARG IMAGE_VENDOR="{IMAGE_VENDOR:-ublue-os}"
 
 RUN --mount=type=tmpfs,dst=/tmp \
