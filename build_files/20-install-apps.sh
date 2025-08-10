@@ -7,7 +7,6 @@ dnf5 install -y \
     bpftop \
     bpftrace \
     ccache \
-    cloudflare-warp \
     flatpak-builder \
     gparted \
     isoimagewriter \
@@ -59,6 +58,8 @@ else
       /etc/xdg/kdeglobals
 fi
 
+dnf5 install --enable-repo="cloudflare-warp" -y \
+    cloudflare-warp
 
 dnf5 install --enable-repo="copr:copr.fedorainfracloud.org:ublue-os:packages" -y \
     ublue-setup-services
