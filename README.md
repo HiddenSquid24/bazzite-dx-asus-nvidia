@@ -1,6 +1,6 @@
-# Bazzite Developer Edition
+# Bazzite Developer Edition on Asus ROG with Nvidia Grpahics
 
-[![Build Bazzite DX](https://github.com/ublue-os/bazzite-dx/actions/workflows/build.yml/badge.svg)](https://github.com/ublue-os/bazzite-dx/actions/workflows/build.yml)
+[![Build](https://github.com/HiddenSquid24/bazzite-dx-asus-nvidia/actions/workflows/build.yml/badge.svg)](https://github.com//HiddenSquid24/bazzite-dx-asus-nvidia/actions/workflows/build.yml)
 
 This is just bazzite, but with extra developer-specific tooling, aiming to match [Bluefin DX](https://docs.projectbluefin.io/bluefin-dx/) and [Aurora DX](https://docs.getaurora.dev/dx/aurora-dx-intro) in functionality
 
