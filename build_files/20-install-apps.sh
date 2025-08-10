@@ -6,10 +6,16 @@ dnf5 install -y \
     bcc \
     bpftop \
     bpftrace \
-    flatpak-builder \
     ccache \
+    flatpak-builder \
+    gparted \
+    isoimagewriter \
+    ksystemlog \
+    llama-cpp \
+    neovim \
     nicstat \
     numactl \
+    ollama \
     podman-machine \
     podman-tui \
     python3-ramalama \
@@ -19,6 +25,9 @@ dnf5 install -y \
     sysprof \
     tiptop \
     usbmuxd \
+    virt-manager \
+    virt-viewer \
+    wireshark \
     zsh
 
 # Restore UUPD update timer and Input Remapper
@@ -48,7 +57,6 @@ else
       -e 's/^(kcm_plymouth\.desktop)=false/\1=true/' \
       /etc/xdg/kdeglobals
 fi
-
 
 dnf5 install --enable-repo="copr:copr.fedorainfracloud.org:ublue-os:packages" -y \
     ublue-setup-services
