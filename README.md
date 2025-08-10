@@ -1,4 +1,4 @@
-# Bazzite Developer Edition on Asus ROG with Nvidia Grpahics
+# Bazzite Developer Edition on Asus ROG with Nvidia Graphics
 
 [![Build](https://github.com/HiddenSquid24/bazzite-dx-asus-nvidia/actions/workflows/build.yml/badge.svg)](https://github.com//HiddenSquid24/bazzite-dx-asus-nvidia/actions/workflows/build.yml)
 
