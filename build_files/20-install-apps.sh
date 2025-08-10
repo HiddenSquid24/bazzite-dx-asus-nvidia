@@ -6,10 +6,17 @@ dnf5 install -y \
     bcc \
     bpftop \
     bpftrace \
-    flatpak-builder \
     ccache \
+    cloudflare-warp \
+    flatpak-builder \
+    gparted \
+    isoimagewriter \
+    ksystemlog \
+    llama-cpp \
+    neovim \
     nicstat \
     numactl \
+    ollama \
     podman-machine \
     podman-tui \
     python3-ramalama \
@@ -19,6 +26,9 @@ dnf5 install -y \
     sysprof \
     tiptop \
     usbmuxd \
+    virt-manager \
+    virt-viewer \
+    wireshark \
     zsh
 
 # Restore UUPD update timer and Input Remapper
